@@ -130,6 +130,23 @@
           </div>
         </div>
       </div>
+      <div class="section position-relative">  
+        <div id="page1fix"></div>
+
+        <div class="box  position-relative" id="page1">
+        <h3 class=" ">LOGO商標設計</h3>
+        <h2 class="gold ml-r">網頁規劃</h2>
+     <div class="box3">
+        <div class="mt-50 d-flex">
+            <img src="./icons-row.svg" alt=""  class="logo fadeInRight2 delay-3 p1i1">
+            <h3 class="lh fadeInLeft delay-3">導覽列橫式LOGO設計</h3>
+        </div>
+        <div class="mt-50 d-flex">
+            <img src="./LOGO.svg" alt="" class="logo2 fadeInRight2 delay-3">
+            <h3 class="lh2 fadeInLeft delay-3">Footer直式LOGO設計</h3>
+        </div>
+     </div>
+    </div></div>
       <div class="section position-relative">
         <div id="page5fix"></div>
 
@@ -266,18 +283,25 @@
     $("#page3").find(".p3b1").find("li").hide()
     $("#page3").find(".p3b2").find("h4").hide()
     $("#page3").find(".p3b2").find("li").hide()
+    $("#page1").hide()
     $("#page4").hide()
     $("#page5").hide()
     $("#page6").hide()
 
     $(window).scroll(function () {
+          var page1 = $('#page1fix').offset().top;
           var page2 = $('#page2fix').offset().top;
           var page3 = $('#page3fix').offset().top;
           var page4 = $('#page4fix').offset().top;
           var page5 = $('#page5fix').offset().top;
           var page6 = $('#page6fix').offset().top;
         
-          console.log("test " ,page2)
+          if( $(this).scrollTop()>=page1){
+            $("#page1").show()
+            // $("#page1").find("img").addClass("fadeInRight delay-2")
+            // $("#page1").find(".box2").find(h3).addClass("fadeInLeft delay-2")
+        
+          }
           if( $(this).scrollTop()>=page2){
             $("#page2").find("img").show().addClass("fadeInRight delay-2")
             $("#page2").find(".box2").find(".p2b1").show().addClass("zoomin delay-7")
