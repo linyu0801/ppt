@@ -181,7 +181,7 @@ li {
   width: 25vh;
   background: url("./kris.jpg");
   background-size: cover;
-  /* border-radius: 50%; */
+  border-radius: 50%;
   border: none;
   margin: 0 auto;
 }
@@ -191,7 +191,7 @@ li {
   background: url("./hoyu.jpg");
   background-position: center 10%;
   background-size: cover;
-  /* border-radius: 50%; */
+  border-radius: 50%;
   border: none;
   margin: 0 auto;
 }
@@ -201,7 +201,7 @@ li {
   background: url("./yu.jpg") no-repeat;
   background-position: center 10%;
   background-size: 90%;
-  /* border-radius: 50%; */
+  border-radius: 50%;
 
   margin: 0 auto;
 }
@@ -211,7 +211,7 @@ li {
   background: url("./finn.jpg") no-repeat;
   background-position: center;
   background-size: 200%;
-  /* border-radius: 50%; */
+  border-radius: 50%;
 
   margin: 0 auto;
 }
@@ -221,7 +221,7 @@ li {
   background: url("./celia.jpg") no-repeat;
   background-position: center 10%;
   background-size: cover;
-  /* border-radius: 50%; */
+  border-radius: 50%;
 
   margin: 0 auto;
 }
@@ -231,7 +231,7 @@ li {
   background: url("./lu.jpg") no-repeat;
   background-position: center 10%;
   background-size: cover;
-  /* border-radius: 50%; */
+  border-radius: 50%;
 
   margin: 0 auto;
 }
