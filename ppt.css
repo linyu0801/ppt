@@ -209,8 +209,8 @@ li {
   height: 25vh;
   width: 25vh;
   background: url("./finn.jpg") no-repeat;
-  background-position: center 10%;
-  background-size: cover;
+  background-position: center;
+  background-size: 200%;
   border-radius: 50%;
 
   margin: 0 auto;
@@ -218,9 +218,9 @@ li {
 .avatar5 {
   height: 25vh;
   width: 25vh;
-  background: url("") no-repeat;
+  background: url("./celia.jpg") no-repeat;
   background-position: center 10%;
-  background-size: 90%;
+  background-size: cover;
   border-radius: 50%;
 
   margin: 0 auto;
