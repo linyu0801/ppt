@@ -218,8 +218,8 @@ li {
 .avatar5 {
   height: 25vh;
   width: 25vh;
-  background: url("./celia.jpg") no-repeat;
-  background-position: center 10%;
+  background: url("./celia2.jpg") no-repeat;
+  background-position: center center;
   background-size: cover;
   border-radius: 50%;
 
